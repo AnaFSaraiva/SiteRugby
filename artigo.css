@@ -1,0 +1,67 @@
+body {
+  background: #eee;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5em
+}
+
+main {
+  width: 960px;
+  /* min-height: 460px; */
+  margin: 0px auto;
+  background: #fff;
+  padding: 30px 0;
+  box-sizing: border-box;
+
+
+}
+
+.artigo {
+  background: #fff;
+  padding: 0 1.5em;
+  box-sizing: border-box;
+  border-top: 2px solid #1874CD;
+  border-bottom: 2px solid #1874CD;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 1em 0 1em 0;
+}
+
+h3:before {
+  content: "[ ";
+}
+
+h3::after {
+  content: " ]";
+}
+
+.instagram {
+  float: right;
+  width: 20%;
+  margin: 0 16% 0.6% 3%;
+}
+
+.texto>p {
+  text-indent: 2em;
+  text-align: justify;
+
+}
+
+p+p {
+  padding-top: 10px;
+}
+
+.autor p {
+  text-align: right;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px 0;
+  background: #ffd900;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
