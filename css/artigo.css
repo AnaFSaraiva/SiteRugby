@@ -61,7 +61,16 @@ p+p {
   font-weight: bold;
   font-size: 15px;
   margin: 20px 0;
-  background: #ffd900;
+  background: #FFC60B;
   padding: 2px 5px;
   border-radius: 3px;
+}
+
+.video {
+  text-align: center;
+}
+
+.video img {
+  margin-bottom: 15px;
+  width: 80%;
 }

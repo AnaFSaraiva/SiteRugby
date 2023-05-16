@@ -4,9 +4,9 @@
 
 - feito em HTML5 CSS3
 
-Projeto básico para estudo de html e css. 
+Projeto básico para estudo de html e css.
 
-Projeto de site fictício de informações de um time de rugby, apresenta:
+Projeto de site fictício de informações do time rio rugby, apresenta:
 
 - Página inicial;
 - Página de contato;

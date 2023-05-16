@@ -1,0 +1,25 @@
+/* ESTUDO DE MIDIA QUERY */
+
+@media screen and (min-width: 740px) {
+  .titulo-artigo {
+    font-size: 20px;
+  }
+
+  .quinta {
+    width: 45%
+  }
+
+  .sabado {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    width: 45%;
+    right: 20px;
+  }
+
+  .mapa p {
+    height: 7em;
+  }
+}
+
+@media screen and (min-width: 1024px) {}

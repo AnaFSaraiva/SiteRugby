@@ -1,0 +1,108 @@
+:root {
+  --global-azul: #014BAE;
+  --global-azul-escuro: #001D5A;
+  --global-amarelo: #FFC60B;
+}
+
+/* CSS DA PAGINA DE CONTATO */
+.conteudo {
+  color: #000;
+}
+
+.conteudo>h2 {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+form {
+  position: relative;
+  margin: 40px 0;
+  width: 40%;
+}
+
+form label,
+legend {
+  display: block;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+form p {
+  font-size: 18px;
+  margin: 30px 0 0;
+}
+
+.input-padrao,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 2px solid #000;
+  outline: none;
+}
+
+.input-padrao:hover,
+select:hover,
+textarea:hover {
+  border: 2px solid var(--global-azul);
+}
+
+.input-padrao:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid var(--global-amarelo);
+}
+
+.input-padrao:focus::placeholder {
+  font-size: 13px;
+  transition: 400ms;
+  transform: translateY(-30px);
+}
+
+
+.enviar {
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px 0;
+  font-size: 15px;
+  background: var(--global-azul-escuro);
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 1s all;
+}
+
+.enviar:hover {
+  color: var(--global-amarelo);
+  transform: scale(1.05);
+}
+
+.separacao {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#midias {
+  color: #eeeeee;
+  width: 40%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 42px 15px;
+  background: var(--global-azul-escuro);
+}
+
+.mapa hr {
+  margin-bottom: 40px;
+}
+
+.midia-icone {
+  width: 15%;
+  margin: 2em 1.5em;
+}
