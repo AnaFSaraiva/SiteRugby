@@ -122,11 +122,11 @@ footer {
   footer p {
     font-size: 15px;
   }
-}
+} */
 
 
 @media screen and (min-width: 1024px) {
-  .cabeçalho {
+  .cabecalho {
     text-align: left;
     max-width: 940px;
     position: relative;
@@ -151,7 +151,7 @@ footer {
 
   footer {
     padding: 20px;
-    width: 940px;
+    /* width: 940px; */
   }
 
   .rodape {
@@ -168,15 +168,16 @@ footer {
     height: 100px;
     top: 50%;
     left: 0;
+    margin-right: 50px;
     transform: translateY(-50%);
   }
 
   .rodape p {
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 50%;
     transform: translateY(-50%);
     color: #FFFFFF;
     padding: 10px 0;
   }
-} */
+}
